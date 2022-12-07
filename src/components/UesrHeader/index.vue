@@ -97,15 +97,16 @@ export default {
 
       .loginList {
         float: left;
-
+        position: relative;
         p {
           float: left;
-          margin-right: 10px;
-
+          margin-left: 10px;
+          position: relative;
+          top: -10px;
           .register {
             border-left: 1px solid #b3aeae;
             padding: 0 5px;
-            margin-left: 5px;
+            margin-left: 10px;
           }
         }
       }

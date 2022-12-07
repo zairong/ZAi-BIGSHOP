@@ -78,15 +78,13 @@ export default {
       //獲取節點
       // console.log(event.target)
       //獲取節點的屬性 
-<<<<<<< HEAD
+
       // console.log(event.target.dataset) 
-=======
-<<<<<<< HEAD
+
       // console.log(event.target.dataset) 
-=======
-      console.log(event.target.dataset) 
->>>>>>> 3374661 (no message)
->>>>>>> b3ef431 (no message)
+
+      console.log(event.target.dataset)
+
       let node = event.target
       //解構賦值:將node的屬性給予 與{}內對應的名稱
       let { categoryname, category1id, category2id, category3id } = node.dataset

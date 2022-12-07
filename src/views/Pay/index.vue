@@ -8,7 +8,9 @@
         </h4>
         <div class="paymark">
           <span class="fl">請您在提交訂單<em class="orange time">4小時</em>之內完成支付，超時訂單會自動取消。訂單號：<em>{{ orderId }}</em></span>
-          <span class="fr"><em class="lead">應付金額：</em><el-button type="red"></el-button><em class="orange money">${{ payInfo.totalFee }}</em></span>
+          <span class="fr"><em class="lead">應付金額：</em><el-button type="red"></el-button><em class="orange money">${{
+              payInfo.totalFee
+          }}</em></span>
         </div>
       </div>
       <div class="checkout-info">
@@ -164,14 +166,9 @@ export default {
       // 計時器沒有，開啟一個新的的計時器
       if (!this.timer) {
         this.timer = setInterval(async () => {
-<<<<<<< HEAD
+
           console.log(result)
-=======
-<<<<<<< HEAD
-          console.log(result)
-=======
->>>>>>> 3374661 (no message)
->>>>>>> b3ef431 (no message)
+
           // 發請求獲取 使用者支付狀態
           let result = await this.$API.reqPayStatus(this.orderId)
           // 支付成功
@@ -186,13 +183,7 @@ export default {
             // 跳轉到下一頁路由
             this.$router.push("/paysuccess")
           }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-      
->>>>>>> 3374661 (no message)
->>>>>>> b3ef431 (no message)
+
         }, 1000)
       }
     },
