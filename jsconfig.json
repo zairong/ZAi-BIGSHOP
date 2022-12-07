@@ -1,9 +1,34 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b3ef431 (no message)
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
+<<<<<<< HEAD
+=======
+=======
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
 }

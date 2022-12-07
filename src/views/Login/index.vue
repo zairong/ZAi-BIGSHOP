@@ -21,7 +21,17 @@
               </div>
               <div class="input-text clearFix">
                 <span class="pwd"></span>
+<<<<<<< HEAD
                 <input type="text" placeholder="請輸入密碼" v-model="password">
+=======
+<<<<<<< HEAD
+                <input type="text" placeholder="請輸入密碼" v-model="password">
+=======
+                <input :type="seeOrCantPassword" placeholder="請輸入密碼" v-model="password">
+                <button @click="changeSeeOrCantSeePassword" v-if="cantSeePassword">顯示密碼</button>
+                <button @click="changeSeeOrCantSeePassword" v-else>隱藏密碼</button>
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
               </div>
 
               <div class="setting clearFix">
@@ -72,7 +82,16 @@ export default {
   data() {
     return {
       phone: '',
+<<<<<<< HEAD
       password: ''
+=======
+<<<<<<< HEAD
+      password: ''
+=======
+      password: '',
+      seeOrCantPassword: 'password'//默認隱藏
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
     }
   },
   methods: {
@@ -87,11 +106,37 @@ export default {
         // } else {
         //   phone && password && this.$router.push('/home')
         // }
+<<<<<<< HEAD
         let toPath =this.$route.query.redirect || "/home"
+=======
+<<<<<<< HEAD
+        let toPath =this.$route.query.redirect || "/home"
+=======
+        let toPath = this.$route.query.redirect || "/home"
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
         this.$router.push(toPath)
       } catch (error) {
         alert(error.message)
       }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    },
+    changeSeeOrCantSeePassword() {
+      if (this.seeOrCantPassword == "password") {
+        this.seeOrCantPassword = "text"
+      } else {
+        this.seeOrCantPassword = "password"
+      }
+    }
+  },
+  computed: {
+    cantSeePassword() {
+      return this.seeOrCantPassword == 'password'
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
     }
   }
 }

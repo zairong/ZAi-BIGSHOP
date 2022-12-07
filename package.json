@@ -1,5 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "Zai-GigShop",
+=======
+<<<<<<< HEAD
+  "name": "Zai-GigShop",
+=======
+  "name": "myapp",
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,21 +16,47 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap-icons": "^1.10.2",
     "core-js": "^3.6.5",
+=======
+<<<<<<< HEAD
+    "bootstrap-icons": "^1.10.2",
+    "core-js": "^3.6.5",
+=======
+    "axios": "^1.1.3",
+    "core-js": "^3.8.3",
+    "element": "^0.1.4",
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
     "element-ui": "^2.15.12",
     "less-loader": "^6.2.0",
     "lodash": "^4.17.21",
     "mockjs": "^1.1.0",
     "nprogress": "^0.2.0",
     "qrcode": "^1.5.1",
+<<<<<<< HEAD
     "vee-validate": "^2.2.15",
     "vue": "^2.6.11",
+=======
+<<<<<<< HEAD
+    "vee-validate": "^2.2.15",
+    "vue": "^2.6.11",
+=======
+    "ui": "^0.2.4",
+    "vee-validate": "^2.2.15",
+    "vue": "^2.6.14",
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
     "vue-lazyload": "^1.3.4",
     "vue-router": "^3.6.5",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b3ef431 (no message)
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@vue/cli-plugin-babel": "~4.5.15",
     "@vue/cli-plugin-eslint": "~4.5.15",
@@ -32,6 +66,20 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
+<<<<<<< HEAD
+=======
+=======
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
   },
   "eslintConfig": {
     "root": true,
@@ -43,7 +91,15 @@
       "eslint:recommended"
     ],
     "parserOptions": {
+<<<<<<< HEAD
       "parser": "babel-eslint"
+=======
+<<<<<<< HEAD
+      "parser": "babel-eslint"
+=======
+      "parser": "@babel/eslint-parser"
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
     },
     "rules": {}
   },

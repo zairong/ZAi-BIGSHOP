@@ -33,7 +33,15 @@ requests.interceptors.request.use((config) => {
 requests.interceptors.response.use((res) => {
   // 成功的回呼函數：伺服器相應資料回來以後，相應攔截器可以檢測到，可以做一些事情
 
+<<<<<<< HEAD
   return res.data
+=======
+<<<<<<< HEAD
+  return res.data
+=======
+  return res.data //res => resolve
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
 }, (error) => {
   // 伺服器回應失敗的回呼函數
   return Promise.reject(new Error('failed'))

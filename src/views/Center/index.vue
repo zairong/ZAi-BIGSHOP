@@ -2,6 +2,10 @@
   <div class="order-main">
     <div class="container">
       <div class="order-body">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b3ef431 (no message)
         <!--左侧列表-->
         <div class="order-left">
           <dl>
@@ -55,6 +59,64 @@
         </div>
         <!-- 右侧内容 -->
         <!-- 路由组件出口的位置 -->
+<<<<<<< HEAD
+=======
+=======
+        <!--左側列表-->
+        <div class="order-left">
+          <dl>
+            <dt><i>·</i> 訂單中心</dt>
+            <dd>
+              <router-link to="/center/myorder">我的訂單</router-link>
+            </dd>
+            <dd>
+              <router-link to="/center/grouporder">團購訂單</router-link>
+            </dd>
+            <dd>本地生活訂單</dd>
+            <dd>我的預售</dd>
+            <dd>評價曬單</dd>
+            <dd>取消訂單記錄</dd>
+          </dl>
+          <dl>
+            <dt><i>·</i> 關注中心</dt>
+            <dd>關注的商品</dd>
+            <dd>關注的店鋪</dd>
+            <dd>關注的專輯</dd>
+            <dd>關注的品牌</dd>
+            <dd>關注的活動</dd>
+            <dd>流覽歷史</dd>
+          </dl>
+          <dl>
+            <dt><i>·</i> 特色業務</dt>
+            <dd>我的營業廳</dd>
+            <dd>京東通信</dd>
+            <dd>定期送</dd>
+            <dd>京東代下單</dd>
+            <dd>我的回收單</dd>
+            <dd>節能補貼</dd>
+            <dd>醫藥服務</dd>
+            <dd>流量加油站</dd>
+            <dd>黃金託管</dd>
+          </dl>
+          <dl>
+            <dt><i>·</i> 客戶服務</dt>
+            <dd>返修退換貨</dd>
+            <dd>價格保護</dd>
+            <dd>意見建議</dd>
+            <dd>購買諮詢</dd>
+            <dd>交易糾紛</dd>
+            <dd>我的發票</dd>
+          </dl>
+          <dl>
+            <dt><i>·</i> 設置</dt>
+            <dd>個人資訊</dd>
+            <dd>收貨地址</dd>
+          </dl>
+        </div>
+        <!-- 右側內容 -->
+        <!-- 路由組件出口的位置 -->
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
         <router-view></router-view>
       </div>
     </div>
@@ -83,7 +145,15 @@ export default {
         clear: both;
       }
 
+<<<<<<< HEAD
       //左边
+=======
+<<<<<<< HEAD
+      //左边
+=======
+      //左邊
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
       .order-left {
         float: left;
         width: 16.67%;
@@ -108,17 +178,41 @@ export default {
         }
       }
 
+<<<<<<< HEAD
       //右边
+=======
+<<<<<<< HEAD
+      //右边
+=======
+      //右邊
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
       .order-right {
         float: right;
         width: 83.33%;
 
+<<<<<<< HEAD
         //订单部分
+=======
+<<<<<<< HEAD
+        //订单部分
+=======
+        //訂單部分
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
         .order-content {
           margin: 0 20px;
           color: #666;
 
+<<<<<<< HEAD
           //标题
+=======
+<<<<<<< HEAD
+          //标题
+=======
+          //標題
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
           .title {
             margin-bottom: 22px;
             border: 1px solid #ddd;
@@ -130,7 +224,15 @@ export default {
             }
           }
 
+<<<<<<< HEAD
           //表头
+=======
+<<<<<<< HEAD
+          //表头
+=======
+          //表頭
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
           .chosetype {
             margin-bottom: 15px;
             color: #666;
@@ -157,7 +259,15 @@ export default {
             }
           }
 
+<<<<<<< HEAD
           // 表单内容
+=======
+<<<<<<< HEAD
+          // 表单内容
+=======
+          // 表單內容
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
           .orders {
             font-size: 12px;
 
@@ -236,7 +346,15 @@ export default {
             }
           }
 
+<<<<<<< HEAD
           // 分页
+=======
+<<<<<<< HEAD
+          // 分页
+=======
+          // 分頁
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
           .choose-order {
             .pagination {
               margin: 38px 0;
@@ -284,7 +402,15 @@ export default {
           }
         }
 
+<<<<<<< HEAD
         // 猜你喜欢
+=======
+<<<<<<< HEAD
+        // 猜你喜欢
+=======
+        // 猜你喜歡
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
         .like {
           border: 1px solid #ddd;
           margin: 15px 20px;
@@ -337,3 +463,11 @@ export default {
   }
 }
 </style>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)

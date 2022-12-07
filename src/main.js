@@ -2,12 +2,28 @@ import Vue from 'vue'
 import App from './App.vue'
 //引入路由
 import router from '@/router'
+<<<<<<< HEAD
 //引入全域組件
+=======
+<<<<<<< HEAD
+//引入全域組件
+=======
+//引入全局組件
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
 import TypeNav from "@/components/TypeNav"
 import Carousel from "@/components/Carousel"
 import Pagination from "@/components/Pagination"
 import { Button, MessageBox } from 'element-ui'
+<<<<<<< HEAD
 //註冊全域組件:參數1:全域組件的名字 參數2:哪一個組件
+=======
+<<<<<<< HEAD
+//註冊全域組件:參數1:全域組件的名字 參數2:哪一個組件
+=======
+//註冊全局組件:參數1:全局組件的名字 參數2:哪一個組件
+>>>>>>> 3374661 (no message)
+>>>>>>> b3ef431 (no message)
 Vue.component('TypeNav', TypeNav)
 Vue.component('Carousel', Carousel)
 Vue.component('Pagination', Pagination)
